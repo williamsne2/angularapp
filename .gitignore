@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -59,3 +60,10 @@ typings/
 
 # next.js build output
 .next
+=======
+/server/config/env/development.js
+/server/server.crt
+/server/server.key
+node_modules/*
+/server/node_modules/*
+>>>>>>> Initial commit
