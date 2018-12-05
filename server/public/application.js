@@ -5,7 +5,7 @@ var mainApplicationModule = angular.module(mainApplicationModuleName,
      'example'
     ]);
 
-mainApplicaitonModule.config(['$locationProvider', function($locationProvider) {
+mainApplicationModule.config(['$locationProvider', function($locationProvider) {
     $locationProvider.hashPrefix('!');
 }]);
 
